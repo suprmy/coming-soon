@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-Screen Layout with Flexbox for Centering */
+        body, html {
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-family: 'Montserrat', sans-serif; /* Modern, clean font */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 10vw; /* Responsive Font Size */
+            font-weight: 700; /* Bold */
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 1.5vw;
+            color: #aaa; /* Slightly lighter footer text */
+        }
+
+        /* Load a Modern Font from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 14vw;
+            }
+
+            footer {
+                font-size: 4vw;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 18vw;
+            }
+
+            footer {
+                font-size: 5vw;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <footer>© 2024 supr.my</footer>
+    </div>
+
+</body>
+</html>
